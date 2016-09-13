@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-6 list-data">
+        <div class="grid" ng-repeat="item in GetData" id="{{ item.id }}">
+            <div class="item-name item-styles">{{$index + 1}}.<a href="{{item.url}}">{{item.name}}</a></div>
+            <div class="pull-left"><img class="item-image" ng-src="{{item.image}}"/></div>
+            <div class="item-name item-phone"> &#9990; {{item.display_phone}}</div>
+            <div class="item-name item-address">{{item.display_address[0]}}
+                <div>{{item.city}},{{item.country_code}}</div>
+            </div>
+            <div><img class="rating-image" ng-src="{{item.rating}}"/></div>
+        </div>
+    </div>
+
+    <div class="col-md-6 right-div">
+        <div class="map" id="map"></div>
+    </div>
+
+</div>
+

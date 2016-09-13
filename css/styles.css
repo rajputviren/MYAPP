@@ -1,0 +1,130 @@
+/*css file created by viren Rajput*/
+body {
+    background-image: url("../images/b.jpg");
+}
+
+.project-title {
+    color: #3366cc;
+    margin: -14px 0 0;
+    line-height: 100px;
+    font-size: 60px;
+    text-shadow: 0px 2px 2px #cbcbcb;
+}
+
+.form-control {
+    width: 200px;
+    margin-top: 40px;
+}
+
+.grid {
+    border: 1px solid #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    margin: 5px;
+    height: 120px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+    background-color: #f8f8f8;
+
+}
+
+.img-Size {
+    height: 336px;
+    width: 1165px;
+    margin-left: 5px;
+
+}
+
+.header-con {
+    height: 80px;
+}
+
+header {
+    background-image: url("../images/h_bg.gif");
+    width: 1165px;
+    margin: 0px 0px 0px -10px;
+    font-size: 20px;
+}
+
+footer {
+    background-image: url("../images/h_bg.gif");
+    width: 1165px;
+    margin: -20px 10px 10px -10px;
+    font-size: 20px;
+    height: 40px;
+}
+
+.menus {
+    background-image: url("../images/h_bg.gif");
+    height: 50px;
+}
+
+.menu-item {
+    margin-top: 2%;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.map {
+    height: 800px;
+}
+
+.right-div {
+    height: 100px;
+}
+
+.list-data {
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.item-image {
+    margin: -30px 10px 10px 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.rating-image {
+    margin: -20px 0px 0px 0px;
+}
+
+.item-name {
+    margin: 0px 10px 10px 120px;
+    padding-top: 1px;
+    color: #1a0000;
+    font-size: 18px;
+}
+
+.item-phone {
+    margin: -10px 10px 10px 10px;
+    font-size: 16px;
+}
+
+.map-item {
+    font-size: 18px;
+}
+
+.item-address {
+    margin: -10px 10px 10px 10px;
+    font-size: 16px;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+.menu-List {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+a {
+    color: #940000;
+    font-size: 18px;
+}
